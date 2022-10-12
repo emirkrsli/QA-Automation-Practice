@@ -141,4 +141,8 @@ public class Questions {
         System.out.println("test");
     }
 
+
+    public static void MesutTestMethod(){
+        System.out.println("test");
+    }
 }
