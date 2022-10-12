@@ -137,6 +137,7 @@ public class Questions {
         return result;
     }
 
+    //GITHUB TEST METHODS
     public static void TestMethod(){
         System.out.println("test");
     }
@@ -145,4 +146,5 @@ public class Questions {
     public static void MesutTestMethod(){
         System.out.println("test");
     }
+    //GITHUB TEST METHODS
 }
