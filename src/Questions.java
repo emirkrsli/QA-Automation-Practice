@@ -1,10 +1,6 @@
 public class Questions {
 
     public static void main(String[] args) throws InterruptedException {
-        System.out.println(power(1,3));
-        System.out.println(power(0,3));
-        System.out.println(power(2,0));
-        System.out.println(power(0,0));
 
     }
 
@@ -147,4 +143,34 @@ public class Questions {
     //    System.out.println("test");
     //}
     //GITHUB TEST METHODS
+
+    // 6*5*4*3*2*1
+    //Write a program to find the factorial value of given number using while loop.
+    public static int findFactorialUsingWhile(int input){
+        int result = 1;
+        while (input > 0){
+            result = result*input;
+            input--;
+        }
+        return result;
+    }
+
+    //Write a program to print numbers from 1 to 10 using while loop.
+    public static void printNumbersWhileLoop(){
+        int i = 1;
+        while (i<=10){
+            System.out.println(i);
+            i++;
+        }
+    }
+
+    //Write a program to print numbers from 1 to 10 using while loop. - Kemal Aymaz Solution
+    public static void printNumbersWhileLoopKemalAymaz(){
+        int i=1;
+        while(i<=10) {
+            System.out.println(i);
+            i++;
+        }
+    }
+
 }
