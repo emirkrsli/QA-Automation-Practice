@@ -137,4 +137,8 @@ public class Questions {
         return result;
     }
 
+    public static void TestMethod(){
+        System.out.println("test");
+    }
+
 }
