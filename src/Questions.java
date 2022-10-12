@@ -138,13 +138,13 @@ public class Questions {
     }
 
     //GITHUB TEST METHODS
-    public static void TestMethod(){
-        System.out.println("test");
-    }
+    //public static void TestMethod(){
+    //    System.out.println("test");
+    //}
 
 
-    public static void MesutTestMethod(){
-        System.out.println("test");
-    }
+    //public static void MesutTestMethod(){
+    //    System.out.println("test");
+    //}
     //GITHUB TEST METHODS
 }
